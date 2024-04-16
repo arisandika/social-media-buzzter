@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "power";
+  src: url("./fonts/PowerGroteskTrial-Heavy.woff2") format("woff2"),
+    url("./fonts/PowerGroteskTrial-Heavy.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montreal";
+  src: url("./fonts/ppneuemontreal-medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montreal-thin";
+  src: url("./fonts/ppneuemontreal-thin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5;
+  color-scheme: light dark;
+  color: #ffffff;
+  background-color: #000000;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary: #a7e92f;
+  --light: #FFFFFF;
+  --dark: #000000;
+  --secondary: #333333;
+  --secondaryDark: #1B1C20;
+  --font-power: "power";
+  --font-montreal: "montreal";
+  --font-montreal-thin: "montreal-thin";
+}
+
+body {
+  font-family: var(--font-montreal), Arial, Helvetica, sans-serif;
+  background-color: var(--dark);
+  color: white;
+}
+
+.font-power {
+  font-family: var(--font-power), Arial, Helvetica, sans-serif;
+}
+
+.font-montreal-thin {
+  font-family: var(--font-montreal-thin), Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/* 
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+} */
