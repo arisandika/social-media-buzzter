@@ -1,4 +1,5 @@
 import { BsThreeDots } from "react-icons/bs";
+import IMAGES from "../../images/Images";
 
 const PostBuzz = () => {
   return (
@@ -36,7 +37,7 @@ const PostBuzz = () => {
             </div>
             <div className="w-full h-auto mt-3 rounded-2xl bg-light/50">
               <img
-                src="https://avatars.githubusercontent.com/u/99670438?v=4"
+                src={IMAGES.image1}
                 alt="Ari Sandika"
                 width="500"
                 height="500"
