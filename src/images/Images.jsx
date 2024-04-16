@@ -1,5 +1,5 @@
 const IMAGES = {
-    image1 : new URL('./mockup.png')
-}
+  image1: new URL("../../public/mockup.png"),
+};
 
-export default IMAGES
+export default IMAGES;

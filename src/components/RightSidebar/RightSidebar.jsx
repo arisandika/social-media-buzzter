@@ -28,9 +28,37 @@ const RightSidebar = () => {
               <div className="flex items-start">
                 <div className="flex-1 pr-4">
                   <p className="text-sm font-medium text-light">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Explore Saintech&apos;s cutting-edge scientific innovations!
                   </p>
-                  <p className="text-sm text-gray-500">@windster.com</p>
+                  <p className="text-sm text-gray-500">@arisandika</p>
+                </div>
+                <div className="inline-flex items-center text-base">
+                  <BsThreeDots />
+                </div>
+              </div>
+            </li>
+            <li className="px-5 py-3 hover:bg-dark/20">
+              <div className="flex items-start">
+                <div className="flex-1 pr-4">
+                  <p className="text-sm font-medium text-light">
+                    Dive into AI-powered shopping with Saintech&apos;s smart
+                    features!
+                  </p>
+                  <p className="text-sm text-gray-500">@arisandika</p>
+                </div>
+                <div className="inline-flex items-center text-base">
+                  <BsThreeDots />
+                </div>
+              </div>
+            </li>
+            <li className="px-5 py-3 hover:bg-dark/20">
+              <div className="flex items-start">
+                <div className="flex-1 pr-4">
+                  <p className="text-sm font-medium text-light">
+                    Discover the future of computing with advanced AI
+                    technology!
+                  </p>
+                  <p className="text-sm text-gray-500">@arisandika</p>
                 </div>
                 <div className="inline-flex items-center text-base">
                   <BsThreeDots />
@@ -63,16 +91,42 @@ const RightSidebar = () => {
                 </a>
               </div>
             </div>
-            <p className="mb-1 text-base font-semibold leading-none text-light">
-              Ari Sandika
-            </p>
-            <p className="mb-2 text-sm font-normal">@arisandika</p>
-            <p className="text-xs text-gray-600">Front End Dev | UI Designer</p>
+            <p className="my-1 text-sm font-normal">Ari Sandika</p>
+            <p className="text-xs text-gray-600">@arisandika</p>
             <a
               href="https://github.com/arisandika"
               className="text-xs text-blue-600 hover:underline"
             >
               github.com/arisandika
+            </a>
+          </div>
+        </div>
+        <div className="flex items-center justify-center w-full rounded-2xl bg-secondaryDark">
+          <div className="w-full p-5">
+            <div className="flex items-center justify-between mb-2">
+              <img
+                src="https://pbs.twimg.com/profile_images/1600092339736743936/2XwcJit9_400x400.jpg"
+                alt="Ari Sandika"
+                width="500"
+                height="500"
+                className="w-10 h-10 rounded-full"
+              />
+              <div>
+                <a
+                  href="https://github.com/arisandika"
+                  className="text-dark bg-primary hover:bg-opacity/90 font-medium rounded-full text-xs px-3 py-1.5"
+                >
+                  Follow
+                </a>
+              </div>
+            </div>
+            <p className="my-1 text-sm font-normal">Extra Time Indonesia</p>
+            <p className="text-xs text-gray-600">@idextratime</p>
+            <a
+              href="https://github.com/arisandika"
+              className="text-xs text-blue-600 hover:underline"
+            >
+              Akun Penyabar Akun Bijaksana 🤙 
             </a>
           </div>
         </div>
